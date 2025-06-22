@@ -19,7 +19,7 @@ for name_list in name_lists:
     letter_sets.append(letters)
 
 # generate a set of english words
-web2lowerset = get_english_words_set(['gcide'], lower=True, alpha=True)
+web2lowerset = get_english_words_set(['web2'], lower=True, alpha=True) # web2 | gcide, usually web2 better
 
 combos = set()
 
